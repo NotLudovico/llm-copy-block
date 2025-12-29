@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { width: 200px; padding: 10px; font-family: sans-serif; text-align: center; }
+    button {
+      background-color: #ff4b4b; color: white; border: none;
+      padding: 10px 20px; border-radius: 5px; cursor: pointer; font-weight: bold;
+    }
+    button:hover { background-color: #d43f3f; }
+    button:disabled { background-color: #ccc; cursor: default; }
+    #status { margin-bottom: 10px; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <div id="status">Protection Active</div>
+  <button id="pauseBtn">Pause (1 min)</button>
+  <script src="popup.js"></script>
+</body>
+</html>
